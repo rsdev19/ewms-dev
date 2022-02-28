@@ -1,9 +1,6 @@
 
 
 /* body{ background:#EAF2FF;font-family: 'Lato', sans-serif !important;} */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 body{font-family: 'Roboto', sans-serif !important;  background:#EAF2FF;}
 *:focus{border: none !important; outline: none !important;}
 
@@ -12,13 +9,13 @@ body{font-family: 'Roboto', sans-serif !important;  background:#EAF2FF;}
 -moz-box-shadow: -1px 0px 20px -1px rgba(0,0,0,0.14);}
 .custom-nav li a{     background: #fff;  border-radius: 100%;  width: 40px; height: 40px; text-align: center;}
 .custom-nav li{ margin-left: 10px; }
-.box-heading{ border-bottom: 2px solid #EBF2F7; padding-bottom:10px; font-size: 20px !important; font-weight: bold !important; font-family: 'Roboto', sans-serif  !important;}
-.box-heading2{ border-bottom: 2px solid #EBF2F7; padding-bottom:10px; font-size: 20px !important; font-weight: bold !important; color: #82C8FB; font-family: 'Roboto', sans-serif  !important;}
+.box-heading{ border-bottom: 2px solid #EBF2F7; padding-bottom:10px; font-size: 20px !important; font-weight: bold !important; font-family: 'Rajdhani', sans-serif !important;}
+.box-heading2{ border-bottom: 2px solid #EBF2F7; padding-bottom:10px; font-size: 20px !important; font-weight: bold !important; color: #82C8FB; font-family: 'Rajdhani', sans-serif !important;}
 
 .example-item2 pre{font:400 14px/20px Roboto, "Helvetica Neue", sans-serif;min-height: 200px;white-space: break-spaces;}
 .left-side-pannel li{ list-style: none; padding: 10px 8px; margin-bottom: 10px; }
 .left-side-pannel{ padding: 0; margin: 0; }
-.left-side-pannel li a{ color: #000 !important; font-size: 13px; display: block; font-family: 'Roboto', sans-serif !important; }
+.left-side-pannel li a{ color: #000 !important; font-size: 13px; display: block; font-family: 'Rajdhani', sans-serif !important; }
 .left-side-pannel li a span{background: #52575D; width: 20px; height: 20px; border-radius: 100%; float: right; text-align: center; line-height: 22px; color: #fff; font-size: 12px}
 .left-side-pannel li a i{color:#D0DBE5; margin-right: 10px;  font-size: 18px; float: left; width: 20px;}
 .left-side-pannel li:last-child{ margin-top: 185px; border-top: 2px solid #EBF2F7; padding: 10px 8px; margin-bottom: 0;padding-top: 24px; }
@@ -37,12 +34,12 @@ body{font-family: 'Roboto', sans-serif !important;  background:#EAF2FF;}
   background-image: linear-gradient(to bottom, transparent, white);
 }
 .profile-image{ width: 30px; height: 30px; border-radius: 100%; margin-right: 10px; }
-.box-heading-profile-name{border-bottom: 2px solid #EBF2F7; padding-bottom:10px; font-size: 14px; font-weight: bold !important; font-family: 'Roboto', sans-serif !important;}
+.box-heading-profile-name{border-bottom: 2px solid #EBF2F7; padding-bottom:10px; font-size: 14px; font-weight: bold !important; font-family: 'Rajdhani', sans-serif !important;}
 
 
 /* ............................login section................................... */
 .login-section input.input-fild{ display: block; width: 100%; margin-top: 10px;border: 1px solid #508FF4; border-radius: 10px !important; text-align: center}
-.login-section h2{ margin: 30px 0; color: #508FF4; font-family: 'Roboto', sans-serif ; font-weight: 300 }
+.login-section h2{ margin: 30px 0; color: #508FF4; font-family: 'Lato', sans-serif; font-weight: 300 }
 
 
  .login-section{ height: 100vh; background: url("../../assets/img/t-bg.png") }
@@ -369,7 +366,7 @@ button:focus{ outline: none !important; border: none;}
 
 .mat-checkbox-layout{white-space:unset !important}
  
- .mat-calendar{font-family: 'Roboto', sans-serif  !important;}
+ .mat-calendar{font-family: 'Lato', sans-serif !important;}
  .mat-calendar-table tbody tr td:first-child{ color: black !important;font-weight: bold;text-transform: capitalize;}
 .dashboard-cal .mat-calendar .mat-calendar-header{display: none !important;}
 .chartjs-render-monitor{ height: 226px !important;}
@@ -512,8 +509,8 @@ button:focus{ outline: none !important; border: none;}
 .custom-date input.mat-input-element::placeholder {
   color: #000; font-size: 12px; opacity: 1; font-weight: bold
 }
-.count-section h1{font-family: 'Roboto', sans-serif  !important; font-size: 90px !important; font-weight: bold !important; margin-top: 50px !important;}
-.count-section p{ text-transform: capitalize;font-family: 'Roboto', sans-serif  !important; font-size: 20px !important; font-weight: bold !important;}
+.count-section h1{font-family: 'Rajdhani', sans-serif !important; font-size: 90px !important; font-weight: bold !important; margin-top: 50px !important;}
+.count-section p{ text-transform: capitalize;font-family: 'Rajdhani', sans-serif !important; font-size: 20px !important; font-weight: bold !important;}
 .border-right{border-right: 1px solid #ccc;}
 .count-section{ margin-top: 60px;}
 .example-custom-date-class {
@@ -542,7 +539,5 @@ button:focus{ outline: none !important; border: none;}
   .mat-standard-chip.mat-chip-with-trailing-icon{ margin-bottom: 15px !important;}
   .mat-table tr td{ cursor: pointer !important;}
 
-  .auth-items{font-family:'Roboto', sans-serif !important; font-size: 11px !important; top: 2px !important; font-weight: normal !important; color: #00000042; margin-left: 10px  !important;}
+  .auth-items{font-family: 'Lato', sans-serif !important; font-size: 11px !important; top: 2px !important; font-weight: normal !important; color: #00000042; margin-left: 10px  !important;}
   .table-borderless tbody td{ border:none}
-
-  .addtodo_btn{ width: 25px; height: 25px; border-radius: 100%; text-align: center; background: #EAF2FF; display: block; line-height: 33px;}
